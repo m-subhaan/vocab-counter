@@ -1,19 +1,19 @@
-   service: word-type-calculation
+service: word-type-calculation
 
-   provider:
-     name: aws
-     runtime: nodejs18.x
+provider:
+  name: aws
+  runtime: nodejs18.x
 
-   functions:
-     calculateWordTypes:
-       handler: src/handler.handler
-       events:
-         - http:
-             path: calculate-word-count
-             method: post
-             cors:
-               origin: '*'
-               headers:
-                 - Content-Type
-               methods:
-                 - POST
+functions:
+  calculateWordTypes:
+    handler: src/handler.handler
+    events:
+      - http:
+          path: calculate-word-count
+          method: post
+          cors:
+            origin: '*'
+            headers:
+              - Content-Type
+            methods:
+              - POST
