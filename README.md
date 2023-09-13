@@ -50,3 +50,5 @@ To test the Serverless functions locally, use:
 ```
 serverless invoke local --function [function-name]
 ```
+## View Live Website
+http://mys3bucketzizo.s3-website-us-east-1.amazonaws.com/
