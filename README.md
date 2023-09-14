@@ -52,3 +52,7 @@ serverless invoke local --function [function-name]
 ```
 ## View Live Website
 http://mys3bucketzizo.s3-website-us-east-1.amazonaws.com/
+
+## Project Demonstration Links
+https://drive.google.com/file/d/1xkRRGbNhtYxc4Gt_9MvL1c25oCPXIiHb/view?usp=drive_link
+https://clipchamp.com/watch/plMm1ppfdgj
