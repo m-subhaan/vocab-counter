@@ -1,5 +1,3 @@
-# ZIZO Assessement
-
 This repository contains the codebase for both the frontend and backend of our application. The frontend is built using React, and the backend is a Serverless application.
 
 ## 📂 Structure
